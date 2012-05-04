@@ -1,0 +1,3 @@
+[submodule "MDAccordianViewDemo/MDAccordianView"]
+	path = MDAccordianViewDemo/MDAccordianView
+	url = git@github.com:mochidev/MDAccordianView.git

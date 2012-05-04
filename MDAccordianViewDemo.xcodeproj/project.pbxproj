@@ -1,0 +1,302 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		65AEB0BC1554726700CB2397 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65AEB0BB1554726700CB2397 /* UIKit.framework */; };
+		65AEB0BE1554726700CB2397 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65AEB0BD1554726700CB2397 /* Foundation.framework */; };
+		65AEB0C01554726700CB2397 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65AEB0BF1554726700CB2397 /* CoreGraphics.framework */; };
+		65AEB0C61554726700CB2397 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 65AEB0C41554726700CB2397 /* InfoPlist.strings */; };
+		65AEB0C81554726700CB2397 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 65AEB0C71554726700CB2397 /* main.m */; };
+		65AEB0CC1554726700CB2397 /* MDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65AEB0CB1554726700CB2397 /* MDAppDelegate.m */; };
+		65AEB0CF1554726700CB2397 /* MDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65AEB0CE1554726700CB2397 /* MDViewController.m */; };
+		65AEB0D21554726700CB2397 /* MDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65AEB0D01554726700CB2397 /* MDViewController.xib */; };
+		65AEB0E3155474B600CB2397 /* MDAccordianView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65AEB0E2155474B600CB2397 /* MDAccordianView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		65AEB0B71554726700CB2397 /* MDAccordianViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MDAccordianViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		65AEB0BB1554726700CB2397 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		65AEB0BD1554726700CB2397 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		65AEB0BF1554726700CB2397 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		65AEB0C31554726700CB2397 /* MDAccordianViewDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MDAccordianViewDemo-Info.plist"; sourceTree = "<group>"; };
+		65AEB0C51554726700CB2397 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		65AEB0C71554726700CB2397 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		65AEB0C91554726700CB2397 /* MDAccordianViewDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MDAccordianViewDemo-Prefix.pch"; sourceTree = "<group>"; };
+		65AEB0CA1554726700CB2397 /* MDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDAppDelegate.h; sourceTree = "<group>"; };
+		65AEB0CB1554726700CB2397 /* MDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDAppDelegate.m; sourceTree = "<group>"; };
+		65AEB0CD1554726700CB2397 /* MDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDViewController.h; sourceTree = "<group>"; };
+		65AEB0CE1554726700CB2397 /* MDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDViewController.m; sourceTree = "<group>"; };
+		65AEB0D11554726700CB2397 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MDViewController.xib; sourceTree = "<group>"; };
+		65AEB0E1155474B600CB2397 /* MDAccordianView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDAccordianView.h; sourceTree = "<group>"; };
+		65AEB0E2155474B600CB2397 /* MDAccordianView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDAccordianView.m; sourceTree = "<group>"; };
+		65AEB0E4155474D000CB2397 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65AEB0B41554726700CB2397 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65AEB0BC1554726700CB2397 /* UIKit.framework in Frameworks */,
+				65AEB0BE1554726700CB2397 /* Foundation.framework in Frameworks */,
+				65AEB0C01554726700CB2397 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		65AEB0AC1554726700CB2397 = {
+			isa = PBXGroup;
+			children = (
+				65AEB0E4155474D000CB2397 /* README.md */,
+				65AEB0C11554726700CB2397 /* MDAccordianViewDemo */,
+				65AEB0BA1554726700CB2397 /* Frameworks */,
+				65AEB0B81554726700CB2397 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		65AEB0B81554726700CB2397 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65AEB0B71554726700CB2397 /* MDAccordianViewDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65AEB0BA1554726700CB2397 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				65AEB0BB1554726700CB2397 /* UIKit.framework */,
+				65AEB0BD1554726700CB2397 /* Foundation.framework */,
+				65AEB0BF1554726700CB2397 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		65AEB0C11554726700CB2397 /* MDAccordianViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				65AEB0CA1554726700CB2397 /* MDAppDelegate.h */,
+				65AEB0CB1554726700CB2397 /* MDAppDelegate.m */,
+				65AEB0CD1554726700CB2397 /* MDViewController.h */,
+				65AEB0CE1554726700CB2397 /* MDViewController.m */,
+				65AEB0D01554726700CB2397 /* MDViewController.xib */,
+				65AEB0C21554726700CB2397 /* Supporting Files */,
+				65AEB0E0155474B600CB2397 /* MDAccordianView */,
+			);
+			path = MDAccordianViewDemo;
+			sourceTree = "<group>";
+		};
+		65AEB0C21554726700CB2397 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				65AEB0C31554726700CB2397 /* MDAccordianViewDemo-Info.plist */,
+				65AEB0C41554726700CB2397 /* InfoPlist.strings */,
+				65AEB0C71554726700CB2397 /* main.m */,
+				65AEB0C91554726700CB2397 /* MDAccordianViewDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		65AEB0E0155474B600CB2397 /* MDAccordianView */ = {
+			isa = PBXGroup;
+			children = (
+				65AEB0E1155474B600CB2397 /* MDAccordianView.h */,
+				65AEB0E2155474B600CB2397 /* MDAccordianView.m */,
+			);
+			path = MDAccordianView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		65AEB0B61554726700CB2397 /* MDAccordianViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65AEB0D51554726700CB2397 /* Build configuration list for PBXNativeTarget "MDAccordianViewDemo" */;
+			buildPhases = (
+				65AEB0B31554726700CB2397 /* Sources */,
+				65AEB0B41554726700CB2397 /* Frameworks */,
+				65AEB0B51554726700CB2397 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MDAccordianViewDemo;
+			productName = MDAccordianViewDemo;
+			productReference = 65AEB0B71554726700CB2397 /* MDAccordianViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		65AEB0AE1554726700CB2397 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MD;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Mochi Development, Inc.";
+			};
+			buildConfigurationList = 65AEB0B11554726700CB2397 /* Build configuration list for PBXProject "MDAccordianViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 65AEB0AC1554726700CB2397;
+			productRefGroup = 65AEB0B81554726700CB2397 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65AEB0B61554726700CB2397 /* MDAccordianViewDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		65AEB0B51554726700CB2397 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65AEB0C61554726700CB2397 /* InfoPlist.strings in Resources */,
+				65AEB0D21554726700CB2397 /* MDViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65AEB0B31554726700CB2397 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65AEB0C81554726700CB2397 /* main.m in Sources */,
+				65AEB0CC1554726700CB2397 /* MDAppDelegate.m in Sources */,
+				65AEB0CF1554726700CB2397 /* MDViewController.m in Sources */,
+				65AEB0E3155474B600CB2397 /* MDAccordianView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		65AEB0C41554726700CB2397 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65AEB0C51554726700CB2397 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		65AEB0D01554726700CB2397 /* MDViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65AEB0D11554726700CB2397 /* en */,
+			);
+			name = MDViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		65AEB0D31554726700CB2397 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		65AEB0D41554726700CB2397 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		65AEB0D61554726700CB2397 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MDAccordianViewDemo/MDAccordianViewDemo-Prefix.pch";
+				INFOPLIST_FILE = "MDAccordianViewDemo/MDAccordianViewDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		65AEB0D71554726700CB2397 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MDAccordianViewDemo/MDAccordianViewDemo-Prefix.pch";
+				INFOPLIST_FILE = "MDAccordianViewDemo/MDAccordianViewDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		65AEB0B11554726700CB2397 /* Build configuration list for PBXProject "MDAccordianViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65AEB0D31554726700CB2397 /* Debug */,
+				65AEB0D41554726700CB2397 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65AEB0D51554726700CB2397 /* Build configuration list for PBXNativeTarget "MDAccordianViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65AEB0D61554726700CB2397 /* Debug */,
+				65AEB0D71554726700CB2397 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 65AEB0AE1554726700CB2397 /* Project object */;
+}
