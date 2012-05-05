@@ -1,6 +1,8 @@
 MDAccordianView Demo
 ====================
 
+![Screenshot](https://github.com/mochidev/MDAccordianViewDemo/raw/master/Artwork/Screenshot.png)
+
 Purpose
 -------
 
