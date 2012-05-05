@@ -1,6 +1,8 @@
 MDAccordianView Demo
 ====================
 
+Video: https://vimeo.com/41601400
+
 ![Screenshot](https://github.com/mochidev/MDAccordianViewDemo/raw/master/Artwork/Screenshot.png)
 
 Purpose
