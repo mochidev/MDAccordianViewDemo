@@ -32,7 +32,11 @@
 //
 
 #import <UIKit/UIKit.h>
+@class MDAccordianView;
 
-@interface MDViewController : UIViewController
+@interface MDViewController : UIViewController {
+    MDAccordianView *accordianView;
+    CGRect cachedRect;
+}
 
 @end

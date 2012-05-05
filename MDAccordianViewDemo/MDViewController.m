@@ -32,12 +32,38 @@
 //
 
 #import "MDViewController.h"
+#import "MDAccordianView.h"
 
 @interface MDViewController ()
 
 @end
 
 @implementation MDViewController
+
+- (void)loadView
+{
+    UIView *rootView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 320, 480)];
+    self.view = rootView;
+    rootView.backgroundColor = [UIColor darkGrayColor];
+    
+    accordianView = [[MDAccordianView alloc] initWithFrame:CGRectMake(10, 10, 300, 400)];
+    [rootView addSubview:accordianView];
+    accordianView.contentView.backgroundColor = [UIColor blueColor];
+    
+    UIPanGestureRecognizer *panGesture = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(pan:)];
+    [rootView addGestureRecognizer:panGesture];
+}
+
+- (void)pan:(UIPanGestureRecognizer *)panGesture
+{
+    CGFloat distance = [panGesture translationInView:self.view].y;
+    
+    if (panGesture.state == UIGestureRecognizerStateBegan) {
+        cachedRect = accordianView.frame;
+    } else {
+        accordianView.frame = CGRectMake(cachedRect.origin.x, cachedRect.origin.y, cachedRect.size.width, cachedRect.size.height+distance);
+    }
+}
 
 - (void)viewDidLoad
 {
