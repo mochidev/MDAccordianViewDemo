@@ -3,6 +3,8 @@ MDAccordianView Demo
 
 Video: https://vimeo.com/41601400
 
+<iframe src="http://player.vimeo.com/video/41601400" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
 ![Screenshot](https://github.com/mochidev/MDAccordianViewDemo/raw/master/Artwork/Screenshot.png)
 
 Purpose
