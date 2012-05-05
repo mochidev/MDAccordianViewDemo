@@ -44,11 +44,11 @@
 {
     UIView *rootView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 320, 480)];
     self.view = rootView;
-    rootView.backgroundColor = [UIColor darkGrayColor];
+    rootView.backgroundColor = [UIColor blackColor];
     
-    accordianView = [[MDAccordianView alloc] initWithFrame:CGRectMake(10, 10, 300, 400)];
+    accordianView = [[MDAccordianView alloc] initWithFrame:CGRectMake(0, 0, 320, 480)];
     [rootView addSubview:accordianView];
-    accordianView.contentView.backgroundColor = [UIColor blueColor];
+    accordianView.contentView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"TestImage.png"]];
     
     UIPanGestureRecognizer *panGesture = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(pan:)];
     [rootView addGestureRecognizer:panGesture];
@@ -79,7 +79,7 @@
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
-    return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
+    return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
 @end
